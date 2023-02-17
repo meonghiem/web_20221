@@ -1,0 +1,70 @@
+
+#myTab {
+    display: flex; 
+    flex-direction: row;
+    /* margin-bottom: 100px;  */
+    font-size: 1.5rem;
+    /* line-height: 1.25rem;  */
+    /* font-weight: 500;  */
+    text-align: center; 
+    flex-wrap: wrap; 
+    list-style: none;
+    margin: 0;
+    border-bottom: solid 0.3vh #004b8f;
+
+}
+
+.tab {
+    display: inline-block; 
+    padding: 0.75rem; 
+    margin-right: 0.25rem;
+    /* padding-bottom: 1.5rem; */
+    color: #004b8f;
+    width: 15vw;
+    font-size: 1.35rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration: none !important;
+
+}
+.tabRes {
+    display: inline-block;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    width: 100px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration: none !important;
+}
+
+.tabActive {
+    color: #ffffff; 
+    background: #004b8f;    
+}
+
+.tabUnactive {
+    background: #ffffff;
+    color:#004b8f;
+}
+
+.tabUnactive:hover {
+    background: #004b8f;
+    color: #fff;
+}
+
+
+.childTabs {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    .tabRes {
+        padding:  1rem 0.25rem;
+        
+        /* font-size: 15px; */
+    }
+}

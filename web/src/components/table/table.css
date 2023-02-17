@@ -1,0 +1,113 @@
+.outside {
+  max-height: 60vh;
+  overflow: scroll;
+  /* display: flex;
+  justify-content: center; */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  scroll-behavior: smooth;
+  font-size: 1.25rem;
+}
+
+.outside::-webkit-scrollbar {
+  background-color: #ffffff;
+} 
+
+.outside::-webkit-scrollbar-thumb {
+  background-color: #707070;
+  border-radius: 2vw;
+}
+
+.outside::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 0.75vw rgba(0,0,0,0.3); */
+  background-color: #F5F5F5;
+}
+/* @media (min-width: 640px) { 
+} */
+
+.table {
+  width: 100%;
+  color: #000000;
+  background-color: #002a7e;
+  /* font-size: 1.05rem; */
+  line-height: 1.3rem;
+  text-align: left;
+}
+
+.tablehead {
+  background-color: #013d79;
+  color: #ffffff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  /* position: sticky; */
+  /* position:absolute; */
+  /* display:table; */
+  top: 0px;
+  margin: 0;
+}
+
+/* .tablebody { */
+  /* position: relative; */
+  /* height: 100vh; */
+/* } */
+
+/* .tablecontainer {
+} */
+
+.row {
+  background-color: #ffffff;
+  /* border-bottom-width: 1px; */
+  text-align: center;
+}
+.row:hover {
+  background-color: #84a6bd;
+  cursor: pointer;
+}
+
+.cell {
+  padding-top: 1rem;
+  padding-bottom: 1rem; 
+  padding-left: 1rem;
+  padding-right: 1rem; 
+  /* width: 100%; */
+}
+
+@media screen and (max-width: 1200px) {
+  
+  .tablehead {
+    font-size: 1.2rem;
+  }
+  .cell {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  
+  .tablehead {
+    font-size: 1rem;
+    padding: 1rem
+  }
+  .cell {
+    padding: 0;
+    border: 0.05rem solid #002a7e
+  }
+}
+
+#moreInfo {
+  background-color: rgba(249, 249, 249, 0.9);
+  /* filter: blur(8px);
+-webkit-filter: blur(8px); */
+  position:absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  text-align: center;
+  align-items: center;
+  vertical-align: center;
+  color: #004b8f;
+  font-size: 5rem;
+}

@@ -1,0 +1,68 @@
+#earlyCheck {
+    background-color: rgba(249, 249, 249, 0.9);
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+    position:fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+    color: #004b8f;
+    font-size: 5rem;
+}
+
+#earlyReason {
+    color: #004b8f;
+    font-size: 3.5rem;   
+    line-height: 4rem;
+    /* border: 0; */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color:transparent;
+    /* padding-bottom: 1.5rem; */
+    resize: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 4vw;
+    margin-top: 4rem;
+    width: 80%;
+    height: auto;
+}
+
+#checkoutEarly {
+    
+    background-color: red;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /* background-color:transparent; */
+    font-size: 4rem;
+    color: #004b8f;
+    border-radius: 1rem;
+    border-bottom: solid 0.5rem;
+}
+
+#checkoutEarly:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+#cancelEarly {
+    
+    font-size: 4rem;
+    color: #004b8f;
+    border-radius: 1rem;
+    border-bottom: solid 0.5rem;
+}
+
+
+#cancelEarly:hover {
+    cursor: pointer;
+    background-color: rgb(7, 252, 20);
+}

@@ -1,0 +1,31 @@
+.sInfo_outside {
+    
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.staffInfoTable {
+    /* border: solid 1px; */
+    width: 100%;
+}
+
+.sRowStart {
+    font-size: 1.4rem;
+    padding-bottom: 1.5rem;
+    color: #004b8f;
+}
+
+.sRowLast {
+    /* border: solid 2px black; */
+    border-top: solid 0.1vh;
+    border-color: #004b8f;
+}
+
+.staffInfoCell {
+    width: 30%;
+    font-size: 1.15rem;
+    /* border: 1px solid; */
+    color: #004b8f;
+    padding-bottom: 1.5rem;
+}

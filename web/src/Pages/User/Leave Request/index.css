@@ -1,0 +1,22 @@
+.requestContent {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 2.5rem;
+    /* height: 77vh; */
+    max-height: 90vh;
+}
+
+#chooseRequest {
+    height: 5rem;
+    width: 25%; 
+    padding: 0;
+    border: solid 0.2rem; 
+    
+    display:flex; 
+    align-items: center; 
+    justify-content: center;
+    /* margin-bottom: 2rem; */
+    /* font-size: 2rem; */
+}
+#chooseRequest:hover {
+    cursor: pointer;
+}

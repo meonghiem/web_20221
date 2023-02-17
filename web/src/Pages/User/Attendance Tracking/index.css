@@ -1,0 +1,60 @@
+#choose {
+    height: 5rem;
+    width: 20rem; 
+    padding: 0;
+    border: solid 0.2rem; 
+    
+    display:flex; 
+    align-items: center; 
+    margin-bottom: 5rem;
+    /* font-size: 2rem; */
+}
+#choose:hover {
+    cursor: pointer;
+}
+
+#dateChoose {
+    background-color: rgba(205, 205, 205, 0.4);
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+    position:fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+    color: #004b8f;
+}
+
+#choosing {
+    background-color: rgba(205, 205, 205, 0.7);
+    position: relative;
+    top: 20%;
+    left: 25%;
+    width: 40%;
+    height: 40%;
+    font-size: 2.5rem;
+    padding: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    /* margin: 10% */
+}
+
+
+select {
+    font-size: 1.5rem;
+    
+    color: #004b8f;
+    border: solid 0.01rem  #004b8f;;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
